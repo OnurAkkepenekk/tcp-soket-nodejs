@@ -2,7 +2,7 @@ var net = require("net");
 const readline = require("readline");
 
 //Server olarak kullanılan bilgisayarın IP adresi verilmelidir
-var HOST = "192.168.1.100";
+var HOST = "";
 var PORT = 6969;
 
 const rl = readline.createInterface({
